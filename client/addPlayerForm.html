@@ -1,14 +1,7 @@
-
-
 <template name="addPlayerForm">
-
 {{#if currentUser}}
-
-	<form>
-		<input type="text" name="playerName">
-		<input type="submit" value="Add Player">
-	</form>
-
+	<div id="playerName" name="playerName" contenteditable='true'>m</div>
+	<button class="submit">Add Player</button>
 {{/if}}
 </template>
 
